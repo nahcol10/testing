@@ -1,0 +1,10 @@
+2025-04-16 19:01:12,090 - data_ingestion - ERROR - Unexpected error occurred wile loading the data : [Errno 2] No such file or directory: ''
+2025-04-16 19:03:09,109 - data_ingestion - ERROR - Unexpected error occurred wile loading the data : [Errno 2] No such file or directory: ''
+2025-04-16 19:03:39,978 - data_ingestion - ERROR - Unexpected error occurred wile loading the data : [Errno 2] No such file or directory: ''
+2025-04-16 19:20:12,021 - data_ingestion - ERROR - Unexpected error occurred wile loading the data : [Errno 2] No such file or directory: ''
+2025-04-16 19:20:19,326 - data_ingestion - ERROR - Unexpected error occurred wile loading the data : [Errno 2] No such file or directory: ''
+2025-04-16 19:20:31,807 - data_ingestion - ERROR - Unexpected error occurred wile loading the data : [Errno 2] No such file or directory: ''
+2025-04-16 19:20:39,910 - data_ingestion - ERROR - Unexpected error occurred wile loading the data : [Errno 2] No such file or directory: ''
+2025-04-16 19:34:10,884 - data_ingestion - ERROR - Unexpected error occurred while loading the data : [Errno 2] No such file or directory: ''
+2025-04-16 19:43:02,667 - data_ingestion - INFO - Column name successfully to : Index(['A', 'B', 'C', 'D'], dtype='object')
+2025-04-16 19:43:02,678 - data_ingestion - INFO - Train and Test save successfully to : data/raw
