@@ -1,0 +1,5 @@
+2025-04-17 19:21:37,530 - root - INFO -File Loaded successfully!!
+2025-04-17 19:21:37,539 - root - ERROR -Unexcepted error occurred during feature engineering
+2025-04-17 19:22:49,984 - root - INFO -File Loaded successfully!!
+2025-04-17 19:22:49,986 - root - INFO -Featured Data Stored successfully to :data/featured_engineered 
+2025-04-17 19:22:49,986 - root - INFO -feature engineering does successfully!!
