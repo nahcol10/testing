@@ -1,0 +1,4 @@
+[core]
+    remote = pipeline
+['remote "pipeline"']
+    url = ../../data
