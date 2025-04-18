@@ -1,0 +1,32 @@
+DATA file loaded successfully!!
+Unexcepted error occured while training model : 'Series' object has no attribute 'flatten'
+DATA file loaded successfully!!
+Value error during training : X_train and Y_train size must be same
+Unexcepted error occured while training model : X_train and Y_train size must be same
+DATA file loaded successfully!!
+here is error
+Value error during training : X_train and Y_train size must be same
+Unexcepted error occured while training model : X_train and Y_train size must be same
+DATA file loaded successfully!!
+(30,)
+DATA file loaded successfully!!
+<class 'numpy.ndarray'>
+DATA file loaded successfully!!
+<class 'numpy.ndarray'>
+Value error during training : X_train and Y_train size must be same
+Unexcepted error occured while training model : X_train and Y_train size must be same
+DATA file loaded successfully!!
+<class 'numpy.ndarray'>
+Value error during training : X_train and Y_train size must be same
+Unexcepted error occured while training model : X_train and Y_train size must be same
+DATA file loaded successfully!!
+initializing the paramters {'n_estimators': 10}
+model training started with 30 number of datapoints
+Value error during training : Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+Unexcepted error occured while training model : Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+DATA file loaded successfully!!
+initializing the paramters {'n_estimators': 10}
+model training started with 30 number of datapoints
+Model training completed
+model saved successfully at model/model.pth
+Model saved to model/model.pth successfully!!

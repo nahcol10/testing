@@ -76,7 +76,7 @@ def main():
       df = pd.DataFrame(X)
       final_df = preprocess_data(df)
       train, test = train_test_split(final_df, test_size=test_size, random_state=42)
-      save_data(train, test, save_data_url='data')
+      save_data(train, test, save_data_url='data/')
   except Exception as e:
       logger.error(f"Error in main: {e}")
 

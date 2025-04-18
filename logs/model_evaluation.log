@@ -1,0 +1,7 @@
+2025-04-18 20:20:53,066 - root - INFO - Model loaded from model/model.pth
+2025-04-18 20:20:53,067 - root - INFO - data loaded from data/featured_engineered/featured_test.csv
+2025-04-18 20:20:53,068 - root - ERROR - Unexcepted error occurred during model evaluation : cannot access local variable 'r2_score' where it is not associated with a value
+2025-04-18 20:21:40,512 - root - INFO - Model loaded from model/model.pth
+2025-04-18 20:21:40,513 - root - INFO - data loaded from data/featured_engineered/featured_test.csv
+2025-04-18 20:21:40,515 - root - INFO - model evalution metrics calcuated
+2025-04-18 20:21:40,515 - root - INFO - metric saved successfully at model/metrics.json
