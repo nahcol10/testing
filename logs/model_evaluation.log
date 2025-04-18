@@ -5,3 +5,7 @@
 2025-04-18 20:21:40,513 - root - INFO - data loaded from data/featured_engineered/featured_test.csv
 2025-04-18 20:21:40,515 - root - INFO - model evalution metrics calcuated
 2025-04-18 20:21:40,515 - root - INFO - metric saved successfully at model/metrics.json
+2025-04-18 20:54:30,187 - root - INFO - Model loaded from model/model.pth
+2025-04-18 20:54:30,189 - root - INFO - data loaded from data/featured_engineered/featured_test.csv
+2025-04-18 20:54:30,191 - root - INFO - model evalution metrics calcuated
+2025-04-18 20:54:30,191 - root - INFO - metric saved successfully at model/metrics.json

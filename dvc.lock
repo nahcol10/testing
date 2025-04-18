@@ -64,15 +64,15 @@ stages:
     outs:
     - path: model/model.pth
       hash: md5
-      md5: 369d7ed149173c018c7b4b7a54f522c7
-      size: 22958
+      md5: c37d3cab66b50330efe807890adcebcb
+      size: 23678
   model_evaluation:
-    cmd: pthon src/model_evaluation.py
+    cmd: python src/model_evaluation.py
     deps:
     - path: model/model.pth
       hash: md5
-      md5: 369d7ed149173c018c7b4b7a54f522c7
-      size: 22958
+      md5: c37d3cab66b50330efe807890adcebcb
+      size: 23678
     - path: src/model_evaluation.py
       hash: md5
       md5: ba855341600ad0a36a3d1f6bfb80855f
@@ -80,5 +80,5 @@ stages:
     outs:
     - path: model/metrics.json
       hash: md5
-      md5: 42b3fe2a91c89f72fd4c1fb28b94113e
-      size: 71
+      md5: 77f4e075529f8bb02f6dd12a8612e9fd
+      size: 68

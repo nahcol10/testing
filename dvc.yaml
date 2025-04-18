@@ -27,9 +27,9 @@ stages:
     outs:
       - model/model.pth
   model_evaluation:
-    cmd: pthon src/model_evaluation.py
+    cmd: python src/model_evaluation.py
     deps:
       - model/model.pth
       - src/model_evaluation.py
-    metrics:
+    outs:
       - model/metrics.json

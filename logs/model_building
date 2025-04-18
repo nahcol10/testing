@@ -30,3 +30,9 @@ model training started with 30 number of datapoints
 Model training completed
 model saved successfully at model/model.pth
 Model saved to model/model.pth successfully!!
+DATA file loaded successfully!!
+initializing the paramters {'n_estimators': 10}
+model training started with 30 number of datapoints
+Model training completed
+model saved successfully at model/model.pth
+Model saved to model/model.pth successfully!!
