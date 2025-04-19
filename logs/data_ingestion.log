@@ -10,3 +10,6 @@
 2025-04-16 19:43:02,678 - data_ingestion - INFO - Train and Test save successfully to : data/raw
 2025-04-18 20:51:07,856 - data_ingestion - INFO - Column name successfully to : Index(['A', 'B', 'C', 'D'], dtype='object')
 2025-04-18 20:51:07,858 - data_ingestion - INFO - Train and Test save successfully to : data/raw
+2025-04-19 20:04:01,663 - data_ingestion - INFO - paramters loaded 
+2025-04-19 20:04:01,668 - data_ingestion - INFO - Column name successfully to : Index(['A', 'B', 'C', 'D'], dtype='object')
+2025-04-19 20:04:01,672 - data_ingestion - INFO - Train and Test save successfully to : data/raw

@@ -3,6 +3,7 @@ import pandas as pd
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 import logging
+import yaml
 
 #Ensure log director exists
 log_dir='logs/'
@@ -28,6 +29,19 @@ file_handler.setFormatter(formatter)
 
 logger.addHandler(console_handler)
 logger.addHandler(file_handler)
+
+def load_params(param_path:str) -> dict:
+  try:
+      with open(param_path,'r') as file:
+        params = yaml.safe_load(file)
+      logger.info("paramters loaded ")
+      return params
+  except FileNotFoundError:
+    logger.error(f"param file not found at {param_path}")
+    raise
+  except Exception as e:
+    logger.error(f"Unexpected error occurred with loading parameter : {e}")
+    raise
 
 def load_data(data_url: str):
   """load data from csv file"""
@@ -71,7 +85,8 @@ def save_data(train: pd.DataFrame,test:pd.DataFrame,save_data_url:str):
 
 def main():
   try:
-      test_size = 0.2
+      params = load_params(param_path='params.yaml')
+      test_size = params['data_ingestion']['test_size']
       X, _ = load_iris(return_X_y=True, as_frame=True)
       df = pd.DataFrame(X)
       final_df = preprocess_data(df)
